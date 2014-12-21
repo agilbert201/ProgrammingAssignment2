@@ -1,5 +1,5 @@
-## Note I don't yet enough knowledge of R or testthat
-## to testing caching more elegantly than message checks
+## Note I don't yet have enough knowledge of R or testthat
+## to test caching logic more elegantly than with message checks
 test_that("cacheMatrix returns accurate inverse",
 {
     m1 <- matrix(c(1,2,3,4),2,2)
